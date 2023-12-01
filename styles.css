@@ -23,23 +23,27 @@ body {
 
 
 nav a {
-    color: blue;
-    font-size: 30px;
-    text-decoration: none;
-
+    color: black;
+    padding: 8px;
 }
 
 nav ul {
     list-style-type: none;
-    position: absolute;
-    top: 0.7rem;
-    right: 1rem;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    top:0;
+    width: 100%;
+    background-color: white;
 
 }
 
 nav li {
-    display: inline;
-    margin-right: 0.5rem;
+    display: block;
+    padding: 8px;
+    float:left;
+    text-decoration: none;
 }
 
 main {
@@ -52,6 +56,11 @@ main section {
     padding: 2rem;
 }
 
+.large-image {
+    width:100%;
+    height: auto;
+    display: block;
+}
 
 .product-container{
     display: flex;
@@ -126,7 +135,7 @@ main section {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 100vh;
+    height: 75vh;
     text-align: center;
 }
 
@@ -142,13 +151,17 @@ main section {
     float: right;
 }
 
-footer {
+footer 
+{
     text-align: right;
     background-color: #BF7631;
     padding: 4rem;
     position: fixed;
     width: 100%;
+    left: 0;
+    bottom: 0;
 }
+
 hr {
     background-color: #707070;
     height: 5px;
