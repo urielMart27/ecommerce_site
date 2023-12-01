@@ -141,3 +141,16 @@ main section {
     display: flex;
     float: right;
 }
+
+footer {
+    text-align: right;
+    background-color: #BF7631;
+    padding: 4rem;
+    position: fixed;
+    width: 100%;
+}
+hr {
+    background-color: #707070;
+    height: 5px;
+    margin: 20px 0;
+}
