@@ -61,6 +61,16 @@ main section {
     height: auto;
     display: block;
 }
+.image-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
 
 .product-container{
     display: flex;
