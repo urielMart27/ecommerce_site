@@ -10,19 +10,23 @@
     <header>
         <nav>
             <a href="">eCommerce</a>
+        <h3>
             <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Products</li>
-                <li>Contact</li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
+        </h3>
         </nav>
     </header>
     <main>
         <section>
-            <img src="./assets/earl-wilcox-y3W0CzO063w-unsplash-alt.jpg" alt="man making a pot">
-            <h1>ABOUT US </h1>
-            <p>
+            <img src="./assets/earl-wilcox-y3W0CzO063w-unsplash-alt.jpg" alt="man making a pot" class="product-image">
+            <h1 class="about">ABOUT US </h1>
+            <div class="container">
+            <img src="./assets/Cylinder_unglazed3_2048x2048.jpg" alt="Tall plant in a white vase" class="first-image">
+            <p class ="text-box">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
                 ut labore et dolore magna aliqua. Neque laoreet suspendisse interdum consectetur libero id
                 faucibus nisl tincidunt. Facilisis mauris sit amet massa. Senectus et netus et malesuada fames
@@ -30,7 +34,8 @@
                 risus nec. Sagittis id consectetur purus ut faucibus. Elit duis tristique sollicitudin nibh sit
                 amet commodo
             </p>
-            <p>
+            <br>
+            <p class="text-box">
                 Nulla porttitor massa id neque aliquam
                 vestibulum morbi. Facilisi nullam vehicula
                 ipsum a arcu cursus vitae congue. Nam libero
@@ -49,15 +54,18 @@
                 enim eu turpis egestas pretium aenean.
                 Nullam ac tortor vitae purus
             </p>
-            <img src="./assets/Cylinder_unglazed3_2048x2048.jpg" alt="Tall plant in a white vase">
-            <img src="./assets/Vase_Dame_2048x2048.jpg" alt="Small plant in a white vase">
+            <img src="./assets/Vase_Dame_2048x2048.jpg" alt="Small plant in a white vase" class="second-image">
+            </div>
         </section>
+        <br>
         <section>
             <h1>OUR PRODUCTS</h1>
-         <div class ="product-container">
+        <div class ="product-container">
             <div class ="product-card">
+                <a href="dummylink">
                 <img src="./assets/tom-crew-7HuTGlUfQSo-unsplash.jpg" alt="Three Mundo Bowls" class="product-image">
-                <div class="product-info"></div>
+                </a>
+                <div class="product-info">
                 <h2 class="product-name">
                     MUNDO BOWLS
                 </h2>
@@ -71,18 +79,21 @@
                     tellus cras adipiscing enim eu turpis
                     egestas pretium aenean.
 
-                </p>
-                <p>
+                </p><br>
+                <p class="learn-more">
                     LEARN MORE
                 </p>
-                <p>
+                <p class="add-to-cart">
                     ADD TO CART
                 </p>
+                </div>
             </div>
-            </div>
-            <div>
+            <div class="product-card">
+                <a href="dummylink">
                 <img src="./assets/oriento-maVIpNNtmlQ-unsplash.jpg" alt="One Red Natureza Vase" class="product-image">
-                <h2>
+                </a>
+                <div class="product-info">
+                <h2 class="product-name">
                     NATUREZA VASE
                 </h2>
                 <h2>
@@ -102,10 +113,15 @@
                 <p>
                     ADD TO CART
                 </p>
+                </div>
             </div>
-            <div>
+
+            <div class="product-card">
+                <a href="dummylink">
                 <img src="./assets/tom-crew-bgIO-u4GEfI-unsplash.jpg" alt="Two stacked Feira Bowls" class="product-image">
-                <h2>
+                </a>
+                <div class="product-info">
+                <h2 class="product-name">
                     FEIRA BOWLS
                 </h2>
                 <h2>
@@ -125,10 +141,14 @@
                 <p>
                     ADD TO CART
                 </p>
+                </div>
             </div>
-            <div>
+            <div class="product-card">
+                <a href="dummylink">
                 <img src="./assets/tom-crew-3uwu5K0RtaE-unsplash.jpg" alt="Two Natureza Pots" class="product-image">
-                <h2>
+                </a>
+                <div class="product-info">
+                <h2 class="product-name">
                     NATUREZA POTS
                 </h2>
                 <h2>
@@ -148,10 +168,14 @@
                 <p>
                     ADD TO CART
                 </p>
+                </div>
             </div>
-            <div>
+            <div class="product-card">
+                <a href="dummylink">
                 <img src="./assets/linh-le-a0rE64YJDA4-unsplash.jpg" alt="Pedra Vase" class="product-image">
-                <h2>
+                </a>
+                <div class="product-info">
+                <h2 class = "product-name">
                     PEDRA VASE
                 </h2>
                 <h2>
@@ -171,10 +195,14 @@
                 <p>
                     ADD TO CART
                 </p>
+                </div>
             </div>
-            <div>
+            <div class="product-card">
+                <a href="dummylink">
                 <img src="./assets/tom-crew-oiZAQvxTcYQ-unsplash.jpg" alt="Two Viaja Pots" class="product-image">
-                <h2>
+                </a>
+                <div class="product-info">
+                <h2 class="product-name">
                     VIAJA POTS
                 </h2>
                 <h2>
@@ -194,10 +222,14 @@
                 <p>
                     ADD TO CART
                 </p>
+                </div>
             </div>
-            <div>
+            <div class="product-card">
+                <a href="dummylink">
                 <img src="./assets/tom-crew-YA2E3d7a9Wo-unsplash.jpg" alt="Four Servico Plates" class="product-image">
-                <h2>
+                </a>
+                <div class="product-info">
+                <h2 class="product-name">
                     SERVIÇO PLATES
                 </h2>
                 <h2>
@@ -217,13 +249,17 @@
                 <p>
                     ADD TO CART
                 </p>
+                </div>
             </div>
-            <div>
+            <div class="product-card">
+                <a href="dummylink">
                 <img src="./assets/oriento-l0ah3UBLppo-unsplash.jpg" alt="One Blue Campeao Vase" class="product-image">
-                <h2>
+                </a>
+                <div class="product-info">
+                <h2 class="product-name">
                     CAMPEÃO VASE
                 </h2>
-                <h2>
+                <h2 class="product-price">
                     $37.00
                 </h2>
                 <p>
@@ -240,10 +276,14 @@
                 <p>
                     ADD TO CART
                 </p>
+                </div>
             </div>
-            <div>
+            <div class="product-card">
+                <a href="dummylink">
                 <img src="./assets/tom-crew-SITGdvztUdg-unsplash.jpg" alt="Five Troca Bowls" class="product-image">
-                <h2>
+                </a>
+                <div class="product-info">
+                <h2 class="product-name">
                     TROCA BOWLS
                 </h2>
                 <h2>
@@ -263,6 +303,7 @@
                 <p>
                     ADD TO CART
                 </p>
+                </div>
             </div>
         </section>
         <section>
